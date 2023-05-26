@@ -17,6 +17,7 @@ procedure onAllPins() ;
 procedure offAllPins() ;
 procedure setPins(pins:TByteSet) ;
 procedure wait(ms:Integer) ;
+procedure Delay977() ;
 
 var 
   dup2con:Boolean = false ;
@@ -95,6 +96,16 @@ procedure wait(ms:Integer) ;
 begin
   // simple ver
   sleep(ms) ;
+end ;
+
+// Задержка 977 мс
+procedure Delay977() ; assembler ;
+asm
+  mov al,0
+  mov ah,86h
+  mov cx,0
+  mov dx,1
+  int 15h
 end ;
 
 end.
