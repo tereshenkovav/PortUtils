@@ -98,7 +98,9 @@ begin
   sleep(ms) ;
 end ;
 
-// Задержка 977 мс
+// Задержка 977 мс.
+// На некоторых BIOS, задержка в два раза короче.
+// Для DOSBox, показатели точные.
 procedure Delay977() ; assembler ;
 asm
   mov al,0
