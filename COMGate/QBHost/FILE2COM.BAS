@@ -8,7 +8,7 @@ PRINT "OPEN COM1"
 filename$ = COMMAND$
 IF filename$ = "" THEN filename$ = "inbox.fil"
 
-OPEN "COM1:19200, N, 8, 1, RS, CS, DS, CD, BIN" FOR RANDOM AS #2
+OPEN "COM1:9600, N, 8, 1, RS, CS, DS, CD, BIN" FOR RANDOM AS #2
 
 DIM p AS LONG
 DIM FileSize AS LONG
