@@ -3,6 +3,7 @@
 * ComEcho - отправка текста в COM порт и получение ответа от хоста на базе DOS
 * COMGate - отправка и получение файлов через COM-порт в хост на базе DOS
 * LPTManager - работа с LPT-портом на DOS и Linux, маленькая библиотека
+* LPTTools - отдельные утилиты LPT-порта
 * Oscill1 - визуализация наличия сигнала с LPT-порта, двухканальный вариант для DOS
 
 Утилиты **не являются профессиональными средствами для работы с портами**,
@@ -15,6 +16,7 @@
 * Com Echo - sending text to the COM port and receiving a response from a DOS-based host
 * COMGate - sending and receiving files throw COM-port to a DOS-based host
 * LPTManager - working with the LPT port on DOS and Linux, a small library
+* LPTTools - some LPT-port tools
 * Oscill1 - visualization of the presence of a signal from the LPT port, dual-channel version for DOS
 
 The utilities **are not professional tools for working with ports**,
